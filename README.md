@@ -1,9 +1,13 @@
 # react-typescript-todo-mvc
 
-1 - 호일님 영훈님 team1
-2 - 성현님 이슬님 team2
-3 - 혜림님 상곤님 team3
-4 - 철현님 원민님 team4
+짝코딩 형식으로 진행
+
+1. - 호일님 영훈님 team1
+2. - 성현님 이슬님 team2
+3. - 혜림님 상곤님 team3
+4. - 철현님 원민님 team4
+
+시간 : `점심시간 중 화요일에 진행`
 
 ## Features
 - [ ] 환경셋팅 ( loader, tsconfig, etc... )
