@@ -13,7 +13,7 @@
 
 ## Features
 - [x] 팀 빌딩 및 스터디 규칙
-- [ ] 환경셋팅 ( loader, tsconfig, etc... )
+- [x] 환경셋팅 ( loader, tsconfig, etc... )
 - [ ] 컴포넌트 쪼개기
 - [ ] 헤더 작성 (CREATE)
 - [ ] 리스트 (READ)
