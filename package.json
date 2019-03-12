@@ -6,6 +6,7 @@
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5",
+    "tslint": "^5.13.1",
     "typescript": "^3.3.3333"
   },
   "scripts": {
