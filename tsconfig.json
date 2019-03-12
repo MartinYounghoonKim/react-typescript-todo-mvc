@@ -19,6 +19,7 @@
     "importHelpers": true,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
+    // 사용안된 지역변수에 대한 오류 보고 여부
     "noUnusedLocals": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
