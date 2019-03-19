@@ -14,15 +14,15 @@ class App extends React.Component {
             type="text"
             className="todo-app__new-todo"
           />
-          <button />
+          <button type="button" />
         </header>
         <div className="todo-app__main">
           <ul className="todo-list">
             <li className="todo-item">
-              <button className="toggle" />
+              <button type="button" className="toggle" />
               <div className="todo-item__view">
                 <div className="todo-item__view__text">text</div>
-                <button className="todo-item__destroy" />
+                <button type="button" className="todo-item__destroy" />
               </div>
               <input
                 type="text"
