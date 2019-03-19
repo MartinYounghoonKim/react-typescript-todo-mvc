@@ -19,7 +19,7 @@ module.exports = {
     TMON: true
   },
   rules: {
-    "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
+    "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx", ".tsx"] }],
     // airbnb eslint 규칙을 그대로 가져왔습니다.
     // 그리고 devDependencies 를 사용할 패턴을 새롭게 등록합니다.
     //https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/rules/imports.js#L71

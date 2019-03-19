@@ -1,6 +1,15 @@
 {
-  "prettier.tslintIntegration": true,
-  "editor.formatOnSave": true,
-  "eslint.autoFixOnSave": true
-  //   "tslint.configFile": "/Users/yiseul/Git/react-typescript-todo-mvc/tslint.json",
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ]
 }
