@@ -61,6 +61,6 @@ module.exports = {
       webpack: {
         config: path.resolve(__dirname, "webpack/config.core.js")
       }
-    }
+    },
   },
 };
