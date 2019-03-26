@@ -24,3 +24,13 @@
 mobx, redux 등등과 상태관리는 자율 기타 추가 사항
 
 이후 테스트 코드 작성 (2기 부터 시작 예정)
+
+## API 설정
+```bash
+# 1
+$ brew install mongodb
+# 2
+$ npm install deployd-cli -g
+# 3
+$ dpd create db
+```
