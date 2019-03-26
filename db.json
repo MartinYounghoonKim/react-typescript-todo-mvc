@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "json-server2",
+      "completed": true
+    },
+    {
+      "title": "json-server3",
+      "completed": true,
+      "id": 3
+    }
+  ]
+}
