@@ -4,7 +4,11 @@ import Header from "./components/Header";
 import TodoList from "./components/TodoList";
 import Footer from "./components/Footer";
 
-class App extends React.Component {
+interface IProps {
+
+}
+
+class App extends React.Component<IProps> {
   render() {
     return (
       <div className="todo-app">
