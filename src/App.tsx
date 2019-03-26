@@ -1,21 +1,14 @@
 import * as React from 'react';
 import './App.css';
+import Header from './component/Header';
 
 class App extends React.Component {
-  state = {
-  }
+  state = {}
 
   render() {
     return (
       <div className="todo-app">
-        <header>
-          <h1 className="todo-app__header">todos</h1>
-          <input
-            type="text"
-            className="todo-app__new-todo"
-          />
-          <button type="button" />
-        </header>
+        <Header />
         <div className="todo-app__main">
           <ul className="todo-list">
             <li className="todo-item">
