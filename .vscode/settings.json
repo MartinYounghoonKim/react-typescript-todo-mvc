@@ -12,7 +12,4 @@
       "autoFix": true
     }
   ],
-  "eslint.workingDirectories": [
-    "./src",
-  ]
 }
