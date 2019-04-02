@@ -1,6 +1,13 @@
 import * as React from 'react';
+import { observer } from 'mobx-react';
+
+import todoStore from './store/todo.store'
+
 import './App.css';
 import Header from './component/Header';
+
+// @observer
+const todoStore = new todoStore();
 
 class App extends React.Component {
   state = {}

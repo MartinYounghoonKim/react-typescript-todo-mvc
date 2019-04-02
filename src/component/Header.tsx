@@ -1,6 +1,13 @@
 import * as React from 'react';
+import { observer, inject } from 'mobx-react';
 
-const Header = () => (
+import { IPropsFromStore } from '../util/utils'
+
+interface IHeader {
+  todo: string;
+}
+
+const Header: React.FunctionComponent<IPropsFromStore<IHeader>> = inject('todo')( observer(()=> (
   <header>
     <h1 className="todo-app__header">todos</h1>
     <input
@@ -9,6 +16,6 @@ const Header = () => (
     />
     <button type="button" />
   </header>
-);
+)));
 
 export default Header;
