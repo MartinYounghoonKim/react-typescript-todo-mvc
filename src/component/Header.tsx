@@ -7,7 +7,7 @@ interface IHeader {
   todo: string;
 }
 
-const Header: React.FunctionComponent<IPropsFromStore<IHeader>> = inject('todo')( observer(()=> (
+const Header: React.FunctionComponent<IPropsFromStore<IHeader>> = inject('todoStore')( observer(()=> (
   <header>
     <h1 className="todo-app__header">todos</h1>
     <input

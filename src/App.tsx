@@ -1,15 +1,12 @@
 import * as React from 'react';
-import { observer } from 'mobx-react';
-
-import todoStore from './store/todo.store'
-
 import './App.css';
 import Header from './component/Header';
+// import { IPropsFromStore } from './util/utils'
+import { observer, inject } from 'mobx-react';
 
-// @observer
-const todoStore = new todoStore();
-
-class App extends React.Component {
+@inject('todoStore')
+@observer
+class App extends React.Component{
   state = {}
 
   render() {
