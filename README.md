@@ -16,7 +16,7 @@
 - [x] 환경셋팅 ( loader, tsconfig, etc... )
 - [x] 컴포넌트 쪼개기
 - [x] 헤더 작성 (CREATE)
-- [ ] 리스트 (READ)
+- [x] 리스트 (READ)
 - [ ] 삭제 (DELETE)
 - [ ] 수정 (UPDATE)
 - [ ] 필터 
