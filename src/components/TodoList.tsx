@@ -9,7 +9,7 @@ interface IProps {
 const TodoList: React.FunctionComponent<IProps> = observer(({ todos }) => (
   <div className="todo-app__main">
     <ul className="todo-list">
-      {todos.map(( { id, text, isDone }: ITodo) => {
+      {todos.map(( { id, text, isDone }: ITodo) => (
         <li className="todo-item" key={id}>
           <button className="toggle" />
           <div className="todo-item__view">
@@ -18,7 +18,7 @@ const TodoList: React.FunctionComponent<IProps> = observer(({ todos }) => (
           </div>
           <input type="text" className="todo-item__edit" />
         </li>
-      })}
+      ))}
     </ul>
   </div>
 ));
