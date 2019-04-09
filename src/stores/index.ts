@@ -10,6 +10,7 @@ export interface ITodo {
 export interface ITodoStore {
   todos: ITodo[];
   fetchTodos: () => void;
+  createTodo: (text: string) => void;
 }
 
 class TodoStore implements ITodoStore {
@@ -19,6 +20,13 @@ class TodoStore implements ITodoStore {
     axios.get('//localhost:2403/todos')
       .then(res => {
         this.todos = res.data;
+      });
+  }
+
+  @action createTodo = (text: string) => {
+    axios.post('//localhost:2403/todos', { text })
+      .then(res => {
+        this.todos = res.data
       });
   }
 }

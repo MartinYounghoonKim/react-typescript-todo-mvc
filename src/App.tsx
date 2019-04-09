@@ -15,10 +15,12 @@ class App extends React.Component<IProps> {
   componentDidMount () {
     this.props.todos.fetchTodos()
   }
+
   render() {
+    const { createTodo } = this.props.todos;
     return (
       <div className="todo-app">
-        <Header/>
+        <Header createTodo={createTodo}/>
         <TodoList todos={this.props.todos.todos}/>
         <Footer/>
       </div>
